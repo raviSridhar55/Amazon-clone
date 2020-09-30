@@ -24,6 +24,7 @@
 
   #navbar-search-res {
     height: 47px;
+    display: block;
   }
   .search-res {
     display: block;
@@ -59,7 +60,8 @@
     width: 400px;
   }
   .main-area {
-    margin: 20px 0;
+    margin: 20px 10px;
+    padding: 0;
   }
   .card .card-image img {
     width: 50px;
@@ -71,7 +73,7 @@
   }
 
   .card .dphone img {
-    width: 10px;
+    width: 60px;
     height: 100px;
   }
 
@@ -79,6 +81,10 @@
     width: 200px;
     margin: 0 20px !important;
     margin-bottom: 20px;
+  }
+
+  .small {
+    font-size: 0.7rem;
   }
 
   .footer-2 {
